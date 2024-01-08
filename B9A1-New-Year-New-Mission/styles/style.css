@@ -15,7 +15,9 @@ header , main{
 .inter-font{
     font-family: 'Inter', sans-serif;
 }
-
+.Mfont {
+    font-family: 'Merriweather', serif;
+}
 
 
 /* header style starts */
@@ -57,4 +59,38 @@ header , main{
 .cata{
     margin-bottom: 50px;
     font-size: 48px;
+}
+/* welcomeSection */
+.welcomeSection{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-image: url('../Images/Vectorrr.png');
+    /* text-align: center; */
+    min-height: 600px;
+    background-repeat: no-repeat;
+}
+.welcone-contant{
+    color: white;
+}
+.welcome-des{
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.welcome-pera{
+    font-size: 18px;
+    color:#fff;
+    padding-bottom: 40px;
+}
+.welcome-img{
+    margin-top: 100px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    color: #fff;
+    border: none;
+    padding:0 50px;
 }

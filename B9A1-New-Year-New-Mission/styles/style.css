@@ -94,3 +94,30 @@ header , main{
     border: none;
     padding:0 50px;
 }
+/* Address Section  */
+.address{
+    background-image: linear-gradient(rgba(255, 89, 89, 0.296), white);
+    margin: 100px 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 16px;
+}
+.address-contant span{
+    color: #FF0000;
+}
+.address-contant{
+    padding-top: 100px;
+}
+.address-contant p {
+    padding-bottom: 10px;
+}
+.join-btn{
+    margin: 50px 0;
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+}

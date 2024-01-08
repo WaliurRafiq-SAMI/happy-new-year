@@ -62,6 +62,7 @@ header , main{
 }
 /* welcomeSection */
 .welcomeSection{
+    margin-top: 60px;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -120,4 +121,41 @@ header , main{
     font-size: 20px;
     padding: 10px 25px;
     border: none;
+}
+/* commingSoon */
+.commingSoon{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.coming-img{
+    border: #FF0000 10px solid;
+    padding: 15px;
+    border-radius: 50%;
+}
+.com-new{
+    font-size: 24px;
+    font-weight: 600;
+}
+.com-soon{
+    margin: 10px 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+.com-tex{
+    font-size: 20px;
+    color: #070211;
+    margin-top: 20px;
+
+
+}
+.com-20{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 48px;
+}
+.com-dol{
+    font-size: 20px;
+    color: #070211;
+    margin: 20px 0;
 }
